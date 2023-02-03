@@ -1,0 +1,47 @@
+<html>
+
+<title>
+ViOlation's KeyGen
+</title>
+
+	<script>
+		function optionClicked(){
+    		let userPicked = document.getElementById("list").value;
+    		var div = document.getElementById("div");
+    		if(userPicked == 'one'){
+      		div.innerHTML = "1330-1860-4356-5280-6440-7193";
+    		}else if(userPicked == 'two'){
+        	div.innerHTML = "DEN5 - BAB8 - JYM9 - TAS6 - 5823";
+    		}else if(userPicked == 'three'){
+       		div.innerHTML = "86ce6-8e931-8e785-44a80-a479c";
+    		}else if(userPicked == 'four'){
+       		div.innerHTML = "MB9K6-P9F93-23JTK-9RDFX-W3XJX & TVY4C-GDJVK-6FRRP-99K4X-THRG2";
+    		}else if(userPicked == 'five'){
+       		div.innerHTML = "NYR5-DEB6-JEJ7-BAB3-2956";
+    		}else if(userPicked == 'six'){
+       		div.innerHTML = "HPVDT-33773-934MV-CH9XM-YMVK3";
+    		}
+		}
+	</script>
+
+    <body>
+    <h1>ViOlation's KeyGen!</h1>
+    <div class="dropdown">
+        <form>
+        <select name="list" id="list" accesskey="target">
+            <option value="none">Select a key!</option>
+            <option value="one">Adobe Photoshop CS3</option>
+            <option value="two">F.E.A.R.</option>
+            <option value="three">Frontlines - Fuel of War</option>
+	    <option value="four">Microsoft Flight Simulator X Gold Edition & Acceleration Expansion</option>
+	    <option value="five">SWAT 4</option>
+	    <option value="six">Windows Mobile 5.0 Pocket PC Premium w/Outlook 2002 (also Pocket PC 2003 Premium w/Outlook 2002)</option>
+        </select>
+        <input type=button value="Select" onclick="optionClicked()" />
+        </form>
+        </div>
+    </div>
+    <div id="div"></div>
+        <link rel="stylesheet" href="dropdown.css">
+    </body>
+</html>
